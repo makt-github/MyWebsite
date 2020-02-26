@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+}
+
+h2{
+    font-family: 'Fredericka the Great' ;
+    color: grey;
+    font-size: 30px;
+}
+h3{
+    font-family: 'Trade Winds' ;
+    font-size: 15px;
+    
+}
+
+h4{
+    color: lightcoral;
+}
+.exp-color{
+    color: maroon;
+    font-weight: 700;
+}
+
+ul li{
+    font-weight: 700;
+    color: olive;
+}
+ul li:hover{
+    color: chocolate;
+    font-size: 25px;
+}
+
+p{
+    color: dimgray;
+    text-align: auto;
+}
+
+.half-width{
+    width: 40%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+
+img:hover{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 100px;
+    width: 500px;
+    height: 500px;
+    transform: rotate(360deg);
+    
+}
+.top-banner{
+    background-image: url("Images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,lightsalmon, tomato);
+    color: white;
+    font-weight: 700;
+}
+
+.link-button:hover{
+    color: greenyellow;
+    font-size: 18px;
+}
+
+.dream-area{
+
+    background-image: url("Images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.exp-bar{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 65%;
+}
+
+.experience-area{
+
+    background-image: url("Images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,rgba(250, 114, 114, 0.795),rgb(154, 255, 71));
+    border-image-slice: 1;
+}
+
+#desktop-app{
+    border-left: 8px solid burlywood;
+    border-image: linear-gradient(180deg,rgb(212, 0, 255),rgb(200, 255, 0));
+    border-image-slice: 1;
+}
+
+.header{
+    background-image: url(Images/italian-landscape-mountains-nature.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+.fotter{
+
+    background-image: url(Images/pexels-photo-268883.jpeg);
+    height: auto;
+    background-repeat: no-repeat;
+}
