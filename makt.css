@@ -45,7 +45,7 @@ p{
     width: 100%;
 }
 
-img:hover{
+.half-width img:hover{
     box-shadow: 10px 10px 40px gray;
     border-radius: 100px;
     width: 500px;
@@ -115,9 +115,38 @@ section{
     background-repeat: no-repeat;
 }
 
+h1{
+    text-align: center;
+    color: coral;
+}
+
+.my-work{
+    background-image: url(Images/my-work-section/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+
+.one-third-width{
+    width: 25%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%; 
+
+}
+
+.one-third-width image{
+    max-width: 100%;
+    
+}
+
+#first-work{
+    width:50px
+    height: 50px;
+}
+
+
 .fotter{
 
     background-image: url(Images/pexels-photo-268883.jpeg);
-    height: auto;
     background-repeat: no-repeat;
 }
+
