@@ -2,6 +2,8 @@ body{
     margin: 0px;
 }
 
+/* Dream-area and top-banner section */
+
 h2{
     font-family: 'Fredericka the Great' ;
     color: grey;
@@ -84,6 +86,8 @@ section{
     background-position: right;
 }
 
+/* Experience area section */
+
 .exp-bar{
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
@@ -109,15 +113,26 @@ section{
     border-image-slice: 1;
 }
 
+/* Header Section */
 .header{
     background-image: url(Images/italian-landscape-mountains-nature.jpg);
     height: auto;
     background-repeat: no-repeat;
 }
 
+/* Latest Work Done Section */
 h1{
     text-align: center;
     color: coral;
+    margin-bottom: 55px;
+    font-weight: 700;
+    font-size: 25px;
+}
+h1:hover{
+    font-weight: 700px;
+    font-size: 40px;
+    color: lightslategrey;
+    
 }
 
 .my-work{
@@ -125,28 +140,46 @@ h1{
     background-repeat: no-repeat;
 }
 
+
+.works{
+    width: 90%;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between; 
+}
+
 .one-third-width{
-    width: 25%;
-    float:left;
-    margin-left: 5%;
-    padding-left: 2%; 
+    width: 30%;
+    margin-left: 2px;
+    padding: 2px;
+}
+.work img{
+    width: 100%;
+    margin: auto;
+}
+.work img:hover{
+
+    box-shadow: 10px 10px 40px gray;
+    border:5px solid goldenrod;
+    transform: rotate(360deg);
 
 }
 
-.one-third-width image{
-    max-width: 100%;
-    
-}
 
-#first-work{
-    width:50px
-    height: 50px;
-}
-
+/*fotter Section*/
 
 .fotter{
 
     background-image: url(Images/pexels-photo-268883.jpeg);
     background-repeat: no-repeat;
+    margin:0 auto;
+    max-height: 30px;
 }
+
+
+
+
+
+
+
 
