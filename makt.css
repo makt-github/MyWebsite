@@ -2,6 +2,18 @@ body{
     margin: 0px;
 }
 
+/* For Responsive layout of all devices */
+
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
 /* Dream-area and top-banner section */
 
 h2{
